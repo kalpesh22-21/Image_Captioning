@@ -1,11 +1,9 @@
 # Abstract:
-We are interested in how neural networks can automatically describe the content of images using natural language. In order to gain a deeper insight into this computer vision problem statement, we have decided to implement the current state-of-the-art image caption generator. Our neural network based image caption generator is implemented in Python powered by the Tensorflow library. We have identified four major modules in our experiment: 
+We were interested in how neural networks can automatically describe the content of images using natural language. To gain a deeper insight into this computer vision problem statement, we implemented the current state-of-the-art image caption generator. Our neural network-based image caption generator is implemented in four major modules: 
 
-1. Data pre-processing;
-2. Convolutional Neural Network (CNN)
-3. Transformer with single self-attention and cross attention
-4. Transformer with two self-attention and cross attention with residual connection
-
+1. Recurrent Neural Network (RNN)
+2. Transformer (with single self-attention and cross attention)
+3. Transformer (with two self-attention and cross attention with residual connection)
 
  # 1. RNN Model
 
